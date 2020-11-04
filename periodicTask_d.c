@@ -145,8 +145,8 @@ int main(int argc, char *argv[])
 	
 
 	/* Process input args */
-	if(argc != 2) {
-	  printf("Usage: %s PROCNAME, where PROCNAME is a string\n\r", argv[0]);
+	if(argc != 3) {
+	  printf("Usage: %s PROCNAME PRIORITY, where PROCNAME is a string and PRIORITY is an integer\n\r", argv[0]);
 	  return -1; 
 	}
 	
