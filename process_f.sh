@@ -7,17 +7,14 @@ max=0
 previous=0
 for i in ${b}
 do
-    a=$(echo $i - $previous | bc)
-    if [ "$a" -lt "$min" ]
+    if [ "$i" -lt "$min" ]
     then
-        min=$a
-        previous=$i
+        min=$i
         echo min=$min max=$max
     fi
-    if [ "$a" -gt "$max" ]
+    if [ "$i" -gt "$max" ]
     then
-        max=$a
-        previous=$i
+        max=$i
         echo min=$min max=$max
     fi
 done
