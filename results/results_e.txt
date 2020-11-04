@@ -1,30 +1,46 @@
 ------------------------ RUNNING THE PROCESS ONLY ------------------------------
 priority 1
-Task process inter-arrival time: min: 99996101 / max: 99996101
-Task process inter-arrival time: min: 99983748 / max: 100013782
-Task process inter-arrival time: min: 99712961 / max: 101831977
-Task process inter-arrival time: min: 99438728 / max: 101831977
-Task process inter-arrival time: min: 99381435 / max: 101831977
-Task process inter-arrival time: min: 99173853 / max: 101831977
-Task process inter-arrival time: min: 98963652 / max: 101831977
+Task process inter-arrival time: min: 99998053 / max: 99998053
+Task process inter-arrival time: min: 99997187 / max: 100002909
+Task process inter-arrival time: min: 99988171 / max: 100010409
+Task process inter-arrival time: min: 99975612 / max: 100025573
+
+priority 50
+Task process inter-arrival time: min: 100000765 / max: 100000765
+Task process inter-arrival time: min: 99990599 / max: 100009482
+Task process inter-arrival time: min: 99985104 / max: 100012423
+Task process inter-arrival time: min: 99979211 / max: 100022242
+Task process inter-arrival time: min: 99972744 / max: 100022242
+Task process inter-arrival time: min: 99965662 / max: 100030684
+
+priority 99
+Task process inter-arrival time: min: 100001471 / max: 100001471
+Task process inter-arrival time: min: 99997371 / max: 100001471
+Task process inter-arrival time: min: 99987116 / max: 100007597
+Task process inter-arrival time: min: 99984038 / max: 100011302
+Task process inter-arrival time: min: 99975667 / max: 100025735
+Task process inter-arrival time: min: 99972855 / max: 100025735
+
+------------------------ RUNNING THE PROCESS + STRESS + 4K VIDEO ------------------------------
+priority 1
+Task process inter-arrival time: min: 99834184 / max: 99834184
+Task process inter-arrival time: min: 99528506 / max: 100522785
 
 
 priority 50
-Task process inter-arrival time: min: 100001787 / max: 100001787
-Task process inter-arrival time: min: 99994427 / max: 100001787
-Task process inter-arrival time: min: 99979344 / max: 100009231
-Task process inter-arrival time: min: 99978559 / max: 100017452
-Task process inter-arrival time: min: 99974688 / max: 100026470
-Task process inter-arrival time: min: 99964211 / max: 100035856
-Task process inter-arrival time: min: 99948390 / max: 100035856
-Task process inter-arrival time: min: 99941969 / max: 100061147
+Task process inter-arrival time: min: 99900472 / max: 99900472
+Task process inter-arrival time: min: 99857798 / max: 100173692
+Task process inter-arrival time: min: 99311461 / max: 100692120
+Task process inter-arrival time: min: 99209793 / max: 100714484
 
 
 priority 99
-Task process inter-arrival time: min: 100001053 / max: 100001053
-Task process inter-arrival time: min: 99987842 / max: 100001053
-Task process inter-arrival time: min: 99987042 / max: 100009598
-Task process inter-arrival time: min: 99984789 / max: 100014238
-Task process inter-arrival time: min: 99972985 / max: 100029251
-Task process inter-arrival time: min: 99964047 / max: 100029251
+Task process inter-arrival time: min: 100136925 / max: 100136925
+Task process inter-arrival time: min: 99877645 / max: 100136925
+Task process inter-arrival time: min: 99845781 / max: 100136925
+Task process inter-arrival time: min: 99770856 / max: 100229533
+Task process inter-arrival time: min: 99755341 / max: 100439577
+Task process inter-arrival time: min: 99751777 / max: 100439577
+Task process inter-arrival time: min: 99740241 / max: 100439577
+Task process inter-arrival time: min: 99724608 / max: 100439577
 
