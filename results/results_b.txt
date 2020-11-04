@@ -1,0 +1,16 @@
+------------------------ RUNNING THE PROCESS ONLY ------------------------------
+Task process inter-arrival time: min: 99999784 / max: 99999784
+Task process inter-arrival time: min: 99999295 / max: 99999784
+Task process inter-arrival time: min: 99998810 / max: 99999784
+Task process inter-arrival time: min: 99990250 / max: 100004935
+Task process inter-arrival time: min: 99988832 / max: 100009360
+Task process inter-arrival time: min: 99981302 / max: 100016290
+Task process inter-arrival time: min: 99980098 / max: 100019213
+
+------------------------ RUNNING THE PROCESS + STRESS + 4K VIDEO ------------------------------
+Task process inter-arrival time: min: 100000512 / max: 100000512
+Task process inter-arrival time: min: 99998506 / max: 100001988
+Task process inter-arrival time: min: 99997718 / max: 100002862
+Task process inter-arrival time: min: 97910214 / max: 102089925
+Task process inter-arrival time: min: 94659522 / max: 104749776
+Task process inter-arrival time: min: 87824585 / max: 112170248
