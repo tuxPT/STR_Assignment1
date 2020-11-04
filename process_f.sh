@@ -4,16 +4,20 @@ b=$(cat log.txt | grep -e "ta (s:ns)" | cut -d" " -f4- | awk '{split($0,a,":"); 
 
 min=10000000001000
 max=0
+previous=0
 for i in ${b}
 do
-    if [ "$i" -lt "$min" ]
+    a=$(echo $i - $previous | bc)
+    if [ "$a" -lt "$min" ]
     then
-        min=$i
+        min=$a
+        previous=$i
         echo min=$min max=$max
     fi
-    if [ "$i" -gt "$max" ]
+    if [ "$a" -gt "$max" ]
     then
-        max=$i
+        max=$a
+        previous=$i
         echo min=$min max=$max
     fi
 done
