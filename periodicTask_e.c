@@ -111,9 +111,10 @@ void * Thread_1_code(void *arg)
 		}
 		/* Do processing */
 		/* Consume time  */
-        int milli_seconds = 20;
-        clock_t start_time = clock();
-        while (clock() < start_time + milli_seconds);
+        int i = 0;
+        while (i < 3*1000*1000){
+            i++;
+        }
 		// printf("Wake at secs:%d, nsec:%d\n\r", ta.tv_sec, ta.tv_nsec);
 		// printf("Next activation secs:%d, nsec:%d\n\r", ts.tv_sec, ts.tv_nsec);
 		
