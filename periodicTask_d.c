@@ -137,7 +137,7 @@ int main(int argc, char *argv[])
 	if(sched_setaffinity(0, sizeof(cpuset), &cpuset)) {
 		printf("\n Lock of process to CPU0 failed!!!");
 		return(1);
-	}
+	} 
 
 	int err;
 	pthread_t threadid;
