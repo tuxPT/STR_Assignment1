@@ -1,0 +1,30 @@
+------------------------ RUNNING THE PROCESS ONLY ------------------------------
+priority 1
+Task process inter-arrival time: min: 99996101 / max: 99996101
+Task process inter-arrival time: min: 99983748 / max: 100013782
+Task process inter-arrival time: min: 99712961 / max: 101831977
+Task process inter-arrival time: min: 99438728 / max: 101831977
+Task process inter-arrival time: min: 99381435 / max: 101831977
+Task process inter-arrival time: min: 99173853 / max: 101831977
+Task process inter-arrival time: min: 98963652 / max: 101831977
+
+
+priority 50
+Task process inter-arrival time: min: 100001787 / max: 100001787
+Task process inter-arrival time: min: 99994427 / max: 100001787
+Task process inter-arrival time: min: 99979344 / max: 100009231
+Task process inter-arrival time: min: 99978559 / max: 100017452
+Task process inter-arrival time: min: 99974688 / max: 100026470
+Task process inter-arrival time: min: 99964211 / max: 100035856
+Task process inter-arrival time: min: 99948390 / max: 100035856
+Task process inter-arrival time: min: 99941969 / max: 100061147
+
+
+priority 99
+Task process inter-arrival time: min: 100001053 / max: 100001053
+Task process inter-arrival time: min: 99987842 / max: 100001053
+Task process inter-arrival time: min: 99987042 / max: 100009598
+Task process inter-arrival time: min: 99984789 / max: 100014238
+Task process inter-arrival time: min: 99972985 / max: 100029251
+Task process inter-arrival time: min: 99964047 / max: 100029251
+
