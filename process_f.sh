@@ -7,16 +7,18 @@ max=0
 previous=0
 for i in ${b}
 do
-    if [ "$i" -lt "$min" ]
+    a=$(echo $i - $previous | bc | sed 's/\-//g')
+    if [ "$a" -lt "$min" ]
     then
-        min=$i
+        min=$a
         echo min=$min max=$max
     fi
-    if [ "$i" -gt "$max" ]
+    if [ "$a" -gt "$max" ]
     then
-        max=$i
+        max=$a
         echo min=$min max=$max
     fi
+    previous=$i
 done
 
 
